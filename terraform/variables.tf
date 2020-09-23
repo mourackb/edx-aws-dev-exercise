@@ -8,3 +8,7 @@ variable "region"                 { default = "us-west-2" }
 # ----------------------------------------------------------------------------------------------------------
 # variable "tag_cust"               { }
 # variable "tag_env"                { }
+variable "db_password" {
+  description = "The password for the EDX DB master user"
+  type        = string
+}
